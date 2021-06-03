@@ -1,0 +1,32 @@
+{
+    "name": "aline",
+    "version": "0.1.0",
+    "description": "Simple note taking program",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:fupfin/aline.git"
+    },
+    "keywords": [],
+    "author": "Sungchul Park",
+    "license": "GPL-3.0",
+    "bugs": {
+        "url": "https://github.com/fupfin/aline/issues"
+    },
+    "homepage": "https://github.com/fupfin/aline",
+    "dependencies": {
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "rest": "^2.0.0"
+    },
+    "scripts": {
+        "watch": "webpack --watch -d"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.14.3",
+        "@babel/preset-env": "^7.14.4",
+        "@babel/preset-react": "^7.13.13",
+        "babel-loader": "^8.2.2",
+        "webpack": "^5.38.1",
+        "webpack-cli": "^4.7.0"
+    }
+}
